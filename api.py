@@ -119,15 +119,15 @@ def predict():
     #Master, miss, mr, mrs, officer, royal
     if Title == 'Master':
         Title = [1,0,0,0,0,0]
-    if Title == 'Miss':
+    elif Title == 'Miss':
         Title = [0,1,0,0,0,0]
-    if Title == 'Mr':
+    elif Title == 'Mr':
         Title = [0,0,1,0,0,0]
-    if Title == 'Mrs':    
+    elif Title == 'Mrs':    
         Title = [0,0,0,1,0,0]
-    if Title == 'Officer':
+    elif Title == 'Officer':
         Title = [0,0,0,0,1,0]
-    if Title == 'Royal':
+    elif Title == 'Royal':
         Title = [0,0,0,0,0,1]
     else:
         Title = [0,0,0,0,0,0]
@@ -209,15 +209,15 @@ def save_data():
     #Master, miss, mr, mrs, officer, royal
     if Title == 'Master':
         Title = [1,0,0,0,0,0]
-    if Title == 'Miss':
+    elif Title == 'Miss':
         Title = [0,1,0,0,0,0]
-    if Title == 'Mr':
+    elif Title == 'Mr':
         Title = [0,0,1,0,0,0]
-    if Title == 'Mrs':    
+    elif Title == 'Mrs':    
         Title = [0,0,0,1,0,0]
-    if Title == 'Officer':
+    elif Title == 'Officer':
         Title = [0,0,0,0,1,0]
-    if Title == 'Royal':
+    elif Title == 'Royal':
         Title = [0,0,0,0,0,1]
     else:
         Title = [0,0,0,0,0,0]
